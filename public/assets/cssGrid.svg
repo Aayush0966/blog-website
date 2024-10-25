@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- Grid side -->
+  <rect x="50" y="50" width="300" height="500" fill="#E9ECEF"/>
+  <text x="150" y="100" font-family="Arial" font-weight="bold" fill="#212529">Grid Layout</text>
+  <rect x="70" y="120" width="80" height="80" fill="#4361EE"/>
+  <rect x="160" y="120" width="80" height="80" fill="#4361EE"/>
+  <rect x="250" y="120" width="80" height="80" fill="#4361EE"/>
+  <rect x="70" y="210" width="170" height="80" fill="#4361EE"/>
+  <rect x="250" y="210" width="80" height="170" fill="#4361EE"/>
+  
+  <!-- Flexbox side -->
+  <rect x="450" y="50" width="300" height="500" fill="#E9ECEF"/>
+  <text x="550" y="100" font-family="Arial" font-weight="bold" fill="#212529">Flexbox Layout</text>
+  <rect x="470" y="120" width="260" height="80" fill="#4CC9F0"/>
+  <rect x="470" y="210" width="120" height="80" fill="#4CC9F0"/>
+  <rect x="610" y="210" width="120" height="80" fill="#4CC9F0"/>
+  <rect x="470" y="300" width="80" height="80" fill="#4CC9F0"/>
+  <rect x="560" y="300" width="80" height="80" fill="#4CC9F0"/>
+</svg>
