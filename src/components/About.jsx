@@ -35,7 +35,7 @@ const About = () => {
   
           {/* Skills Section */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {['Frontend Development', 'Backend Development', 'UI/UX Design'].map((skill) => (
+            {['Frontend Development', 'Backend Development'].map((skill) => (
               <Card key={skill} className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm hover:bg-white/70 dark:hover:bg-gray-800/70 transition-colors">
                 <CardContent className="p-4 text-center">
                   <h3 className="font-medium dark:text-white text-sm sm:text-base">{skill}</h3>
