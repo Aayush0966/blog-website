@@ -1,14 +1,14 @@
 import React from 'react';
 import { Calendar, Clock, Heart, MessageSquare, ExternalLink } from 'lucide-react';
 
-const BlogCard = ({ blog }) => {
+const BlogCard = ({ blog, handleClick }) => {
   const getDate = (date) => {
     const options = { weekday: 'long', month: 'long', day: 'numeric' };
     return new Date(date).toLocaleDateString('en-US', options);
   };
 
   return (
-    <article className="group relative w-full overflow-hidden rounded-xl  transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl  dark:shadow-gray-900/30 sm:max-w-md lg:max-w-lg">
+    <article  onClick={handleClick}     className="cursor-pointer group relative w-full overflow-hidden rounded-xl  transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl  dark:shadow-gray-900/30 sm:max-w-md lg:max-w-lg">
       {/* Image Container with Aspect Ratio */}
       <div className="relative aspect-[16/9] overflow-hidden rounded-t-xl">
         <img
