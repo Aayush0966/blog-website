@@ -5,8 +5,8 @@ import '@/styles/global.css'
 const inter = Roboto_Mono({ subsets: ['latin'] }); // Customize as needed
 
 export const metadata = {
-  title: "My App",
-  description: "A sample Next.js app",
+  title: "DevBlogs",
+  description: "DevBlogsWorld is a developer-oriented blog site fetching posts dynamically from Dev.to.",
 }
 
 export default function RootLayout({ children }) {
